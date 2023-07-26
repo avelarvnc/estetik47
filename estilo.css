@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFE4FF;
+    font-family: 'Archivo', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'El Messiri', sans-serif;
+    margin: 8px 0;
+}
+
+h2{
+    font-size: 52px;
+    font-family: 'El Messiri', sans-serif;
+    margin: 8px 0;
+}
+
+h3{
+    font-size: 32px;
+    font-family: 'El Messiri', sans-serif;
+    margin: 8px 0;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+a{
+    font-size: 30px;
+    margin-left: 48px;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 48px;
+}
+
+#cabecalho{
+    background-color: #FFF0F5;
+    padding-left: 24px;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu{
+    /*proporção de medidas de padding nas 4 direções (cima, direita, baixo, esquerda)*/
+   /* padding: 48px 0 48px 24px; */
+
+   /*proporção de medidas de padding nas 4 direções com 2 valores (cima+baixo e esquerda+direita)*/
+   padding: 48px 8px;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#painel-imagens{
+    text-align: center;
+}
+
+input, select, textarea {
+    width: 500px;
+}
+
+#rodape{
+    background-color: #FFF0F5;
+    text-align: center;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+
+.card-servico{
+    text-align: center;
+    background-color: #FFF0F5;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card-servico img{
+    border-radius: 20px;
+    margin: 8px 0;
+}
+
+#sobre, #servicos, #contato, #mapa{
+    padding: 0 8px;
+}
